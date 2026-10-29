@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090c14">
+  <meta name="description" content="Sebuah halaman kecil berisi semangat dan pesan hangat untuk Hyunn.">
+  <title>For Hyunn ♡ — Kamu Pasti Bisa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="For Hyunn, halaman utama"><span class="brand-heart">♥</span><span>For Hyunn</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#pesan">Pesan</a>
+      <a class="nav-link" href="#motivasi">Motivasi</a>
+      <a class="nav-link" href="#harapan">Harapan</a>
+    </nav>
+    <span class="top-note">Satu halaman kecil untukmu ♡</span>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-star">✦</span> HALAMAN KHUSUS UNTUKMU</p>
+        <h1>Semangat,<br><span>Hyunn!</span> <span class="outline-heart">♡</span></h1>
+        <p class="hero-text">Kalau hari ini terasa berat, istirahat sebentar, ya. Kamu nggak harus selalu kuat setiap waktu. Aku percaya kamu bisa melewati semuanya, satu langkah kecil demi satu langkah kecil.</p>
+        <div class="hero-actions">
+          <button class="primary-btn" id="loveButton"><span>♡</span> Kirim semangat</button>
+          <a class="quiet-link" href="#pesan">Baca pesan untukmu <span>↓</span></a>
+        </div>
+        <p class="handwritten hero-note">pelan-pelan juga tetap maju ♡</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="Ilustrasi seseorang memandang langit senja di bawah bintang">
+        <div class="moon"></div>
+        <div class="glow"></div>
+        <div class="city city-back"></div>
+        <div class="city city-front"></div>
+        <div class="hill"></div>
+        <div class="person"><div class="head"></div><div class="body"></div></div>
+        <span class="sky-note">you can do it,<br>Hyunn ♡</span>
+        <span class="spark s1">✦</span><span class="spark s2">✧</span><span class="spark s3">·</span>
+      </div>
+    </section>
+
+    <section class="section-heading" id="pesan">
+      <div><p class="eyebrow">DARI HATI KECIL INI</p><h2>Beberapa hal yang ingin<br class="desktop-only"> aku ingatkan ke kamu.</h2></div>
+      <span class="heading-doodle">♡</span>
+    </section>
+
+    <section class="cards">
+      <article class="card quote-card">
+        <div class="card-icon">☼</div><h3>Pesan hari ini</h3>
+        <p class="quote">“Jangan takut kalau langkahmu terasa lambat. Yang penting kamu tetap mencoba, tetap belajar, dan nggak menyerah sama diri sendiri.”</p>
+        <p class="signature">— Untuk Hyunn, dengan sayang ♡</p>
+        <span class="card-watermark">♡</span>
+      </article>
+      <article class="card encouragement" id="motivasi">
+        <div class="card-icon">✧</div><h3>Kamu pasti bisa</h3>
+        <p>Hyunn, jangan terlalu keras sama diri sendiri, ya. Kamu sudah berusaha sejauh ini, dan itu berarti. Nggak apa-apa kalau belum semuanya berjalan sesuai rencana.</p>
+        <div class="soft-note"><span>♥</span><p>Kamu nggak harus sempurna untuk jadi seseorang yang hebat.</p></div>
+      </article>
+      <article class="card checklist-card">
+        <div class="card-icon">☾</div><h3>Jangan lupa, ya</h3>
+        <ul class="checklist">
+          <li><button class="check" aria-label="Tandai sudah istirahat">✓</button> Istirahat yang cukup</li>
+          <li><button class="check" aria-label="Tandai sudah makan">✓</button> Makan dan minum teratur</li>
+          <li><button class="check" aria-label="Tandai sudah bernapas tenang">✓</button> Tarik napas, tenangkan diri</li>
+          <li><button class="check" aria-label="Tandai sudah mencoba">✓</button> Hargai usaha sendiri</li>
+          <li><button class="check" aria-label="Tandai sudah tersenyum">✓</button> Sisihkan waktu untuk bahagia</li>
+        </ul>
+        <p class="check-hint">Ketuk lingkarannya kalau sudah dilakukan.</p>
+      </article>
+    </section>
+
+    <section class="lower-grid">
+      <article class="card daily-card">
+        <div class="card-icon">✦</div><h3>Kalimat penyemangat</h3>
+        <p class="daily-message" id="dailyMessage">Hari yang berat bukan berarti hidupmu buruk. Besok selalu punya kesempatan baru.</p>
+        <button class="secondary-btn" id="newMessage">Pesan lainnya <span>↗</span></button>
+      </article>
+      <article class="card letter-card">
+        <div class="card-icon">♡</div><h3>Kalau kamu sedang lelah…</h3>
+        <p>Berhenti sebentar bukan berarti kalah. Kamu boleh merasa capek, boleh bingung, dan boleh mengambil waktu untuk dirimu sendiri. Aku harap kamu selalu ingat bahwa usahamu berarti, bahkan saat hasilnya belum terlihat.</p>
+        <p class="handwritten letter-sign">Aku dukung kamu, Hyunn ♡</p>
+      </article>
+      <article class="card dream-card" id="harapan">
+        <div class="card-icon">⌁</div><h3>Harapan kecil untukmu</h3>
+        <div class="wish"><div class="wish-label"><span>Lebih percaya diri</span><span>♡</span></div><div class="progress"><span style="width:88%"></span></div></div>
+        <div class="wish"><div class="wish-label"><span>Menikmati proses</span><span>✦</span></div><div class="progress"><span style="width:76%"></span></div></div>
+        <div class="wish"><div class="wish-label"><span>Menemukan banyak alasan tersenyum</span><span>☾</span></div><div class="progress"><span style="width:94%"></span></div></div>
+        <p class="handwritten dream-note">semoga hal baik menemukanmu.</p>
+      </article>
+    </section>
+
+    <section class="final-message">
+      <span class="final-heart">♡</span>
+      <div><h2>Semangat terus, Hyunn.</h2><p>Jangan lupa, kamu berharga. Kamu pantas bahagia, dan kamu nggak harus menghadapi semuanya dengan terburu-buru.</p></div>
+      <button id="surpriseButton" class="surprise-btn">Buka pesan rahasia ✦</button>
+    </section>
+    <div class="surprise hidden" id="surprise" role="status">
+      <span class="surprise-spark">✧</span>
+      <p class="handwritten">Untuk Hyunn,</p>
+      <p>Apa pun yang sedang kamu hadapi hari ini, semoga kamu selalu menemukan sedikit cahaya untuk melanjutkan langkah. Aku percaya sama kamu. Jaga diri baik-baik, ya. ♡</p>
+      <button id="closeSurprise" class="text-btn">Tutup pesan</button>
+    </div>
+  </main>
+
+  <footer><span class="footer-heart">♥</span><div><strong>Dibuat khusus untuk Hyunn ♡</strong><p>Semoga halaman kecil ini bisa bikin harimu sedikit lebih hangat.</p></div><a href="#home" aria-label="Kembali ke atas">↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite">Hyunn, kamu hebat! ♡</div>
+  <script src="app.js"></script>
+</body>
+</html>
